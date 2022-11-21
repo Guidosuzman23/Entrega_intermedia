@@ -9,7 +9,7 @@ Cumple ademas la funcionalidad que los clientes podrán agregar los tipos de caf
 ## Caracteristicas de la aplicación y funcionalidades
 La aplicación tiene las siguientes funcionalidades:
 
--*** Crear tortas ***: Agregar tortas a la base de datos. Con su precio y descripción
+-***Crear tortas***: Agregar tortas a la base de datos. Con su precio y descripción
 
 -***Crear cafés***: Agregar cafés a la base de datos. Con su precio y descripción
 
