@@ -9,29 +9,29 @@ Cumple ademas la funcionalidad que los clientes podrán agregar los tipos de caf
 ## Caracteristicas de la aplicación y funcionalidades
 La aplicación tiene las siguientes funcionalidades:
 
-***Crear tortas***: Agregar tortas a la base de datos. Con su precio y descripción
+-*** Crear tortas ***: Agregar tortas a la base de datos. Con su precio y descripción
 
-***Crear cafés***: Agregar cafés a la base de datos. Con su precio y descripción
+-***Crear cafés***: Agregar cafés a la base de datos. Con su precio y descripción
 
-***Registrarse***: Crear usuarios a la base de datos con el nombre, apellido, email, edad. 
+-***Registrarse***: Crear usuarios a la base de datos con el nombre, apellido, email, edad. 
 
-***Buscador***: Poder buscar cualquier cafe o torta dentro de la base de datos. 
+-***Buscador***: Poder buscar cualquier cafe o torta dentro de la base de datos. 
 
-***Iniciar sesión***: Con el usuario ya creado se puede iniciar sesión en la aplicación. 
+-***Iniciar sesión***: Con el usuario ya creado se puede iniciar sesión en la aplicación. 
 
-##Tecnologías utilizadas:
+## Tecnologías utilizadas:
 -Python
 -Django Framework
 -HTML
 -CSSS
 
-##Personas contribuyentes:
+## Personas contribuyentes:
 Guido Suzman
 
-##Actualizaciones:
+## Actualizaciones:
 La aplicación esta en pleno desarrollo. 
 
-##Ingreso
+## Ingreso
 Para ir a la pagina de inicio deben tipear: tienda/inicio/
 
 
