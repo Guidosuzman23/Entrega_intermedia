@@ -1,0 +1,15 @@
+{% extends 'app_tienda/base.html' %}
+{% block contenido %}
+<form action="{% url 'app_tienda-busqueda' %}" method="get">
+    
+    
+    <p>
+        Nombre del cafe: <input type="text" name="nombre_cafe>
+        <input type="submit" value="Buscar">
+    </p>
+    <p>
+        Nombre de la torta: <input type="text" name="nombre_torta>
+        <input type= "submit" value="Buscar"> 
+    </p>
+</form>
+{% endblock %}
