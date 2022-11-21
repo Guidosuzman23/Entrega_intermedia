@@ -23,7 +23,7 @@ La aplicación tiene las siguientes funcionalidades:
 -Python
 -Django Framework
 -HTML
--CSSS
+-CSS
 
 ## Personas contribuyentes:
 Guido Suzman
