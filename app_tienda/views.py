@@ -22,20 +22,20 @@ def vista_cafe(request):
         formulario = CafeForm(request.POST)
         if formulario.is_valid():
             data = formulario.cleaned_data
-            Cafe = Cafe(nombre_cafe = data["nombre_cafe"], precio = data["precio"], descripcion = data["descripcion"])
-            Cafe.save()
+            cafe = Cafe(nombre_cafe = data["nombre_cafe"], precio = data["precio"], descripcion = data["descripcion"])
+            cafe.save()
     formulario = CafeForm()
-    return render(request, "app_tienda/cafe.html")
+    return render(request, "app_tienda/cafe.html" , {"formulario": formulario})
 
 def vista_tortas(request):
     if request.method == "POST":
         formulario = TortaForm(request.POST)
         if formulario.is_valid():
             data = formulario.cleaned_data
-            torta = torta(nombre_torta = data["nombre_torta"], precio = data["precio"], descripcion = data["descripcion"])
+            torta = Torta(nombre_torta = data["nombre_torta"], precio = data["precio"], descripcion = data["descripcion"])
             torta.save()
     formulario = TortaForm()
-    return render(request,"app_tienda/tortas.html")
+    return render(request,"app_tienda/tortas.html",  {"formulario": formulario})
 
 def vista_inicio_sesion(request):
     return render(request, "app_tienda/iniciar_sesion.html")

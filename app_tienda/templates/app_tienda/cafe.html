@@ -1,15 +1,12 @@
 {% extends 'app_tienda/base.html' %}
 {% block contenido %}
-    <h1>Ingrese el nombre del cafe que quiere crear</h1>
+   
     <form action="" method="post">
         {% csrf_token %}
         {{formulario.as_p}}
         <input type="submit" value="Crear Cafe">
-        <p>
-            Nombre del Cafe: <input type="text" name="nombre_cafe">
-        </p>
-        <p>
-            Precio: <input type="number" name="precio_cafe">
+       
+        
       
     </form>
 {% endblock %}

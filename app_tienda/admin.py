@@ -5,5 +5,5 @@ from app_tienda.models import *
 # Register your models here.
 admin.site.register(Usuario)
 admin.site.register(Cafe)
-admin.site.register(tortas)
+admin.site.register(Torta)
 

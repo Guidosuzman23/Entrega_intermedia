@@ -1,14 +1,12 @@
 {% extends 'app_tienda/base.html' %}
 {% block contenido %}
-    <h1>Ingrese el nombre de la torta que quiere crear</h1>
+   
     <form action="" method="post">
         {% csrf_token %}
         {{formulario.as_p}}
         <input type="submit" value="Crear Torta">
-        <p>
-            Nombre de la  Torta: <input type="text" name="nombre_torta">
-        </p>
-        <p>
-            Precio: <input type="number" name="precio_torta">
+       
+        
+      
     </form>
 {% endblock %}
